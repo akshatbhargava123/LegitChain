@@ -5,6 +5,8 @@ import CourtContract from '../build/contracts/Court.json';
 import getWeb3 from './utils/getWeb3'
 import ipfs from './ipfs'
 
+import EvidenceList from './EvidenceList';
+
 class App extends Component {
   constructor(props) {
     super(props)
@@ -172,6 +174,7 @@ class App extends Component {
           </header>
         </div>
         <div className="container">
+          <h1>Create new Evidence</h1>
           <form onSubmit={this.onSubmit}>
             <div className="row">
               <div className="col-25">
@@ -255,6 +258,7 @@ class App extends Component {
               <input type="submit" value="Submit" />
             </div>
           </form>
+          <EvidenceList />
         </div>
       </div>
     );
