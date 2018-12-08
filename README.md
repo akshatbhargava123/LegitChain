@@ -1,3 +1,5 @@
+__This was build at ETHIndia 2018 and we were among the 7 finalist of the hackathon, overall experience of the hackathon was awesome, solidity ftw <3 My teamate for this hackathon was [sakshisrivastava413](https://github.com/sakshisrivastava413) :)__
+
 # ***Legit Chain***
 
 Legit Chain is blockchain based solution to avoid evidence tampering in Indian Court (actually any judiary based system out there).
